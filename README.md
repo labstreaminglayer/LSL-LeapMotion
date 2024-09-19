@@ -1,6 +1,8 @@
 # LSL-LeapMotion
 
-Stream Leap Motion data over LSL
+Stream Leap Motion data over LSL.
+
+Please check the [python directory](./python) for a more updated implementation in Python.
 
 ## How to Build
 ### Dependencies

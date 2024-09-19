@@ -1,0 +1,15 @@
+[project]
+name = "lsl-leap"
+version = "0.1.0"
+description = "Stream Leap Motion data over LSL"
+readme = "README.md"
+requires-python = ">=3.8, <3.9"
+dependencies = [
+    "cffi>=1.17.1",
+    "leap",
+    "pylsl>=1.16.2",
+    "typer>=0.12.5",
+]
+
+[tool.uv.sources]
+leap = { git = "https://github.com/ultraleap/leapc-python-bindings.git", subdirectory = "leapc-python-api" }
