@@ -9,4 +9,5 @@ Before getting started, you'll need a Leap Motion (tested with model 2), [`uv`](
 1. Clone the repository: `git clone https://github.com/labstreaminglayer/LSL-LeapMotion.git`
 2. Change to the python directory: `cd LSL-LeapMotion/python`
 4. Run the script: `uv run leap_lsl.py`
-    * The first run might take a moment do install the virtual env and dependencies. 
+    * The first run might take a moment do install the virtual env and dependencies.
+    * Add `--quat` to the command to include quaternions for each joint which increasees the channel count from 63 to 147
